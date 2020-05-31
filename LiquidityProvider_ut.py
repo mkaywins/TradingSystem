@@ -11,4 +11,9 @@ class TestMarketSimulator(unittest.TestCase):
         self.assertEqual(self.liquidity_provider.orders[0]['side'], 'buy')
         self.assertEqual(self.liquidity_provider.orders[0]['quantity'], 700)
         self.assertEqual(self.liquidity_provider.orders[0]['price'], 11)
+
+
+if __name__ == '__main__':
+    unittest.main()
+    
         
